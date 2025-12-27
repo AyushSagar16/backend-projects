@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+/coverage
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+dist
+build
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tgz
+.nyc_output
+
+# Editor/OS files
+.DS_Store
+*.suo
+*.ntvsuser
+*.njsproj
+*.sln
+.vscode/
